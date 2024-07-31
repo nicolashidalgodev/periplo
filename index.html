@@ -54,49 +54,59 @@
             </div>
         </nav>
 
-        <header class="hero">
-            <div class="container h-100">
+        <header class="hero section position-relative bg-pink">
+            <div class="container h-100 position-relative z-index-1">
                 <div class="row h-100">
-                    <div class="col-6 justify-content-center d-flex flex-column h-100">
-                        <h1>Periplo Derechos laborales Migrantes</h1>
-                        <p class="text-start">Derechos laborales de las y los trabajadores migrantes en el sector frutícola.</p>
+                    <div class="col-lg-5 justify-content-center d-flex flex-column h-100 px-lg-0">
+                        <h1 class="mb-5">
+                            <img src="assets/periplo-logo.svg" alt="Periplo Derechos laborales Migrantes" class="logo">
+                        </h1>
+                        <p class="title text-start text-uppercase fw-bold h4">Derechos laborales de las y los trabajadores migrantes en el sector frutícola.</p>
                     </div>
                 </div>
             </div>
-            <img src="assets/bg-banner.jpg" alt="">
+            <img src="assets/bg-banner.jpg" alt="" class="background">
         </header>
 
-        <section id="quienes-somos">
+        <section id="quienes-somos" class="quienes-somos section">
             <div class="container"> 
-                <header>
-                    <h2>¿Quiénes somos?</h2>
+                <header class="mb-5">
+                    <h2 class="title">¿Quiénes somos?</h2>
                 </header>
-                <p>
-                    Somos un consorcio integrado por:
-                    Fundación Casa de la Paz, Corporación La Morada y Fundación Avina.
+                <p class="col-7 mx-auto">
+                    Somos un consorcio integrado por: <br>
+                    Fundación Casa de la Paz, Corporación La Morada y Fundación Avina. <br>
+                </p>
+                <p class="col-7 mx-auto">   
                     Promovemos el trabajo decente, y debida diligencia, para todas las
-                    personas trabajadoras migrantes en el sector frutícola chileno.
+                    personas trabajadoras migrantes en el sector frutícola chileno. <br>
+                </p>
+                <p class="col-7 mx-auto">   
                     Buscamos contribuir en la mejora del ejercicio de los derechos laborales
                     con un énfasis especial en perspectiva de género y derechos humanos.
                 </p>
-                <div class="card">
-                    <figure>
-                        <img src="assets/logo-fundacion.svg" alt="">
-                    </figure>
-                    <figure>
-                        <img src="assets/logo-morada.svg" alt="">
-                    </figure>
-                    <figure>
-                        <img src="assets/logo-avina.svg" alt="">
-                    </figure>
+                <div class="card rounded-3">
+                    <div class="container">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <figure class="col-2 align-items-center d-flex">
+                                <img src="assets/logo-fundacion.svg" alt="" class="w-100">
+                            </figure>
+                            <figure class="col-2 align-items-center d-flex">
+                                <img src="assets/logo-morada.svg" alt="" class="w-100">
+                            </figure>
+                            <figure class="col-3 align-items-center d-flex">
+                                <img src="assets/logo-avina.svg" alt="" class="w-100">
+                            </figure>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
             
-        <section  id="que-hacemos" class="bg-green">
+        <section  id="que-hacemos" class="bg-green section">
             <div class="container"> 
-                <header>
-                    <h2>¿Qué hacemos?</h2>
+                <header class="mb-5">
+                    <h2 class="title">¿Qué hacemos?</h2>
                 </header>
                 <div id="carouselExampleCaptions" class="carousel slide d-block" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -133,10 +143,10 @@
             </div>
         </section>
         
-        <section id="donde-estamos">
+        <section id="donde-estamos" class="bg-brown section">
             <div class="container"> 
                 <header>
-                    <h2>¿Dónde Estamos?</h2>
+                    <h2 class="title">¿Dónde Estamos?</h2>
                 </header>
                 <p>PERIPLO Chile se desarrolla en las regiones con mayor presencia de población migrante en trabajo agrícola.</p>
                 <figure>
@@ -145,51 +155,67 @@
             </div>
         </section>
         
-        <section id="newsletter">
-            <div class="container"> 
+        <section id="newsletter" class="news section bg-brown position-relative">
+            <div class="container position-relative z-index-1"> 
                 <header>
-                    <h2>Newsletter</h2>
+                    <h2 class="title">Newsletter</h2>
                 </header>
-                <p>
-                    ¿Quieres conocer más sobre PERIPLO Chile, el avance en derechos laborales migrantes y debida
-                    diligencia en esta materia al interior de las empresas?
-                </p>
-                <p>
-                    ¡Suscribete a nuestro informativo!
-                    PERIPLO Chile Una mirada informativa al trabajo migrante en el sector frutícola.
-                </p>
-                <form action="">
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Mail">
-                    <input type="submit" value="Suscribirse">
+                <div class="col-7 mx-auto mb-5">
+                    <p>
+                        ¿Quieres conocer más sobre PERIPLO Chile, el avance en derechos laborales migrantes y debida
+                        diligencia en esta materia al interior de las empresas?
+                    </p>
+                    <p>
+                        ¡Suscribete a nuestro informativo!
+                        PERIPLO Chile Una mirada informativa al trabajo migrante en el sector frutícola.
+                    </p>
+                </div>
+                <form action="" class="col-3 mx-auto text-center">
+                    <input type="text" placeholder="Nombre" class="form-control mb-3">
+                    <input type="text" placeholder="Mail" class="form-control mb-3">
+                    <input type="submit" value="Suscribirse" class="btn btn-success">
                 </form>
-                <button>Revisa nuestras ediciones</button>
+                <button class="btn btn-light text-green mx-auto d-block my-5 py-2 px-5">Revisa nuestras ediciones</button>
             </div>
+            <img src="assets/bg-newsletter.jpg" alt="" class="background">
         </section>
         
-        <section id="contacto">
-            <div class="container"> 
-                <header>
-                    <h2>Contacto</h2>
-                </header>
-                <p>
-                    ¿Eres parte de una organización presente en los territorios de desarrollo de PERIPLO Chile y quieres participar del proyecto?
-                </p>
-                <p>
-                    ¡Comunícate con nosotros!
-                </p>
-                <p>
-                    Escribenos al correo: periplo.chile@avina.net
-                </p>
+        <div id="contacto">
+            <div class="container-fluid ps-0">
+                <div class="row">
+                    <div class="col-6 position-relative">
+                        <img src="assets/bg-contacto.jpg" alt="" class="w-100 background">    
+                    </div>
+                    <section class="section col-6 px-5">
+                        <header>
+                            <h2 class="title text-pink">Contacto</h2>
+                        </header>
+                        <p class="text-dark">
+                            ¿Eres parte de una organización presente en los territorios de desarrollo de PERIPLO Chile y quieres participar del proyecto?
+                        </p>
+                        <p class="text-dark">
+                            ¡Comunícate con nosotros!
+                        </p>
+                        <p class="text-dark">
+                            Escribenos al correo: <a href="" class="text-green fw-bold">periplo.chile@avina.net</a>
+                        </p>
+                    </section>
+                </div>
             </div>
-        </section>
+        </div>
         
-        <footer>
+        <footer class="bg-lime py-3">
             <div class="container"> 
-                <p>PERIPLO Chile es una iniciativa que cuenta con el financiamiento de la Unión Europea</p>
-                <figure>
-                    <img src="assets/flag-union-europea.svg" alt="">
-                </figure>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-7 d-flex align-items-center">
+                        <p class="m-0">PERIPLO Chile es una iniciativa que cuenta con el financiamiento de la Unión Europea</p>
+                    </div>
+                    <div class="col-2 d-flex align-items-center">
+                        <figure class="m-0">
+                            <img src="assets/flag-union-europea.svg" alt="" class="w-100">
+                        </figure>
+                    </div>
+                </div>
             </div>
         </footer>
 
