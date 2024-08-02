@@ -88,6 +88,19 @@ p a:hover{
     font-size: 12px;
 }
 
+@media(max-width: 780px){
+    
+    .navbar .nav-item{
+        justify-content: end;
+    }
+
+    .navbar .nav-item .nav-link{ 
+        font-size: 18px;
+        text-align: right;
+    }
+
+}
+
 .navbar-toggler{
     background: transparent;
     border: 2px solid white;
